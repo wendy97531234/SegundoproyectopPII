@@ -20,11 +20,20 @@ namespace CapaDesconectada
         private void btnObtenerNotipado_Click(object sender, EventArgs e)
         {
 
-            gridNotipado.DataSource = customerRepository.ObtenerTodos();
+            gridNotipado.DataSource = customerRepository.Obtenertodos();
         }
         private void btnBuscarNt_Click(object sender, EventArgs e)
         {
-
+            var cliente = customerRepository.ObtenerPorID(btnObtenerNotipado.Text);
+            if (cliente == null)
+            {
+                MessageBox.Show("El objeto es null");
+            }
+            if (cliente != null)
+            {
+                var listaClientes = new List<Customer> { cliente };
+                gridNotipado.DataSource = listaClientes;
+            }
         }
         #endregion
 
@@ -35,14 +44,24 @@ namespace CapaDesconectada
             var customers = adaptador.GetData();
             gridTipado.DataSource = customers;
         }
+        private void btnBuscarTipado_Click(object sender, EventArgs e)
+        {
+            var customer = adaptador.GetDataByCustomerID(tboxBuscarTipado.Text);
+
+            if (customer != null)
+            {
+                var cliente = customerRepository.ExtraerInformacionCliente(customer);
+                Console.WriteLine(customer);
+            }
+        }
 
         #endregion
         public Form1()
         {
             InitializeComponent();
         }
-
-       
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
-    

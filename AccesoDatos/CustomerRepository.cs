@@ -35,7 +35,7 @@ namespace AccesoDatos
             return dataTable;
         }
 
-        public Customer ObetenerPorId(string id)
+        public Customer ObtenerPorID(string id)
         {
             using (var conexion = DataBase.GetSqlConnection())
             {
@@ -55,21 +55,22 @@ namespace AccesoDatos
                 selectForId = selectForId + "      ,[Fax] " + "\n";
                 selectForId = selectForId + "  FROM [dbo].[Customers] " + "\n";
                 selectForId = selectForId + "  Where CustomerID = @CustomerID";
+
                 using (var comando = new SqlCommand(selectForId, conexion))
                 {
                     comando.Parameters.AddWithValue("@CustomerID", id);
                     SqlDataAdapter adaptador = new SqlDataAdapter(comando);
                     adaptador.Fill(dataTable);
-                    Customer cliente = ExtraerInfoCliente(dataTable);
+                    Customer cliente = ExtraerInformacionCliente(dataTable);
                     return cliente;
                 }
             }
         }
 
-        private Customer ExtraerInfoCliente(DataTable dataTeble)
+        public Customer ExtraerInformacionCliente(DataTable dataTable)
         {
             Customer customer = new Customer();
-            foreach (DataRow fila in dataTeble.Rows)
+            foreach (DataRow fila in dataTable.Rows)
             {
                 customer.CustomerID = fila.Field<string>("CustomerID");
                 customer.CompanyName = fila.Field<string>("CompanyName");
