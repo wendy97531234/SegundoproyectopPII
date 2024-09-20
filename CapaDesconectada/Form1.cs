@@ -94,6 +94,13 @@ namespace CapaDesconectada
 
         }
 
-       
+        private void btnInsertarT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            int insertados = adaptador.Insert(cliente.CustomerID, cliente.CompanyName, cliente.ContactName,
+                cliente.ContactTitle, cliente.Address, cliente.City, cliente.Region, cliente.PostalCode, cliente.Country, cliente.Phone,
+                cliente.Fax
+                );
+        }
     }
 }

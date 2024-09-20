@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\northwind.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\northwind.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\accesodatos\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\northwind.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\northwind.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|c:\\users\\mineducyt\\desktop\\segundoproyectoppii\\capadesconectada\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\northwind.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\northwind.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\accesodatos\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\mineducyt\\desktop\\segundoproyectoppii\\accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\mineducyt\\desktop\\segundoproyectoppii\\accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5398CA6A-C447-434C-A663-298A3B641D4D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FE301DAA-F311-4F7D-9611-EAF9C5096050}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,32 +66,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Northwind.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.cs",
+              "RelativeDocumentMoniker": "CapaDesconectada\\Northwind.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.cs*",
+              "RelativeToolTip": "CapaDesconectada\\Northwind.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:25:27.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs",
               "RelativeDocumentMoniker": "CapaDesconectada\\Form1.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "CapaDesconectada\\Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDesconectada\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T02:36:19.391Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\AccesoDatos\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\AccesoDatos\\CustomerRepository.cs*",
-              "RelativeToolTip": "AccesoDatos\\CustomerRepository.cs*",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAwwHcAAAAJAAAA",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\AccesoDatos\\CustomerRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\CustomerRepository.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAIwHcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T00:41:00.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "DataBase.cs",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\AccesoDatos\\DataBase.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\DataBase.cs",
@@ -100,32 +117,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs",
               "RelativeDocumentMoniker": "CapaDesconectada\\Form1.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs*",
-              "RelativeToolTip": "CapaDesconectada\\Form1.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAYAAAA",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.cs",
+              "RelativeToolTip": "CapaDesconectada\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T03:04:03.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Northwind.xsd",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd",
               "RelativeDocumentMoniker": "CapaDesconectada\\Northwind.xsd",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd",
-              "RelativeToolTip": "CapaDesconectada\\Northwind.xsd",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd*",
+              "RelativeToolTip": "CapaDesconectada\\Northwind.xsd*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-09-11T00:07:44.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\AccesoDatos\\Customer.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Customer.cs",
@@ -142,21 +159,21 @@
               "Title": "Northwind.xsd",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd",
               "RelativeDocumentMoniker": "CapaDesconectada\\Northwind.xsd",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd",
-              "RelativeToolTip": "CapaDesconectada\\Northwind.xsd",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Northwind.xsd*",
+              "RelativeToolTip": "CapaDesconectada\\Northwind.xsd*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-09-11T00:17:50.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "CapaDesconectada\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.Designer.cs*",
-              "RelativeToolTip": "CapaDesconectada\\Form1.Designer.cs*",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\Form1.Designer.cs",
+              "RelativeToolTip": "CapaDesconectada\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T00:36:02.307Z",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\SegundoproyectopPII\\CapaDesconectada\\App.config",
               "RelativeDocumentMoniker": "CapaDesconectada\\App.config",
