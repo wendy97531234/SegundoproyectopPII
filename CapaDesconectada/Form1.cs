@@ -24,7 +24,7 @@ namespace CapaDesconectada
         }
         private void btnBuscarNt_Click(object sender, EventArgs e)
         {
-            var cliente = customerRepository.ObtenerPorID(btnObtenerNotipado.Text);
+            var cliente = customerRepository.ObtenerPorId(btnObtenerNotipado.Text);
             if (cliente == null)
             {
                 MessageBox.Show("El objeto es null");
@@ -60,6 +60,12 @@ namespace CapaDesconectada
             return cliente;
 
         }
+        private void btnActualizarNT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            var actulaixadas = customerRepository.ActualizarCliente(cliente);
+            MessageBox.Show($"{actulaixadas} filas actulizadas");
+        }
         #endregion
 
         #region tipado
@@ -75,7 +81,7 @@ namespace CapaDesconectada
 
             if (customer != null)
             {
-                var cliente = customerRepository.ExtraerInformacionCliente(customer);
+                var cliente = customerRepository.ExtraerInfoCliente(customer);
                 Console.WriteLine(customer);
             }
         }
@@ -102,5 +108,7 @@ namespace CapaDesconectada
                 cliente.Fax
                 );
         }
+
+       
+        }
     }
-}

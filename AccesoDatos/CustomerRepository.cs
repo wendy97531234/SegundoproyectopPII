@@ -35,7 +35,7 @@ namespace AccesoDatos
             return dataTable;
         }
 
-        public Customer ObtenerPorID(string id)
+        public Customer ObtenerPorId(string id)
         {
             using (var conexion = DataBase.GetSqlConnection())
             {
@@ -55,22 +55,21 @@ namespace AccesoDatos
                 selectForId = selectForId + "      ,[Fax] " + "\n";
                 selectForId = selectForId + "  FROM [dbo].[Customers] " + "\n";
                 selectForId = selectForId + "  Where CustomerID = @CustomerID";
-
                 using (var comando = new SqlCommand(selectForId, conexion))
                 {
                     comando.Parameters.AddWithValue("@CustomerID", id);
                     SqlDataAdapter adaptador = new SqlDataAdapter(comando);
                     adaptador.Fill(dataTable);
-                    Customer cliente = ExtraerInformacionCliente(dataTable);
+                    Customer cliente = ExtraerInfoCliente(dataTable);
                     return cliente;
                 }
             }
         }
 
-        public Customer ExtraerInformacionCliente(DataTable dataTable)
+        public Customer ExtraerInfoCliente(DataTable dataTeble)
         {
             Customer customer = new Customer();
-            foreach (DataRow fila in dataTable.Rows)
+            foreach (DataRow fila in dataTeble.Rows)
             {
                 customer.CustomerID = fila.Field<string>("CustomerID");
                 customer.CompanyName = fila.Field<string>("CompanyName");
@@ -86,6 +85,7 @@ namespace AccesoDatos
             }
             return customer;
         }
+
         public int InsertarCliente(Customer cliente)
         {
             using (var conexion = DataBase.GetSqlConnection())
@@ -107,16 +107,46 @@ namespace AccesoDatos
 
                 using (var commando = new SqlCommand(InsertarporId, conexion))
                 {
-                    commando.Parameters.AddWithValue("CustomerID", cliente.CustomerID);
-                    commando.Parameters.AddWithValue("CompanyName", cliente.CompanyName);
-                    commando.Parameters.AddWithValue("ContactName", cliente.ContactName);
-                    commando.Parameters.AddWithValue("ContactTitle", cliente.ContactTitle);
-                    commando.Parameters.AddWithValue("Address", cliente.Address);
-                    SqlDataAdapter adaptador = new SqlDataAdapter(commando);
-                    adaptador.InsertCommand = commando;
+                    SqlCommand comando = parametrosSqlCustomers(commando, cliente);
+                    SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+                    adaptador.InsertCommand = comando;
                     return adaptador.InsertCommand.ExecuteNonQuery();
                 }
             }
+        }
+
+        public int ActualizarCliente(Customer cliente)
+        {
+
+            using (var conexion = DataBase.GetSqlConnection())
+            {
+                String updateUser = "";
+                updateUser = updateUser + "UPDATE [dbo].[Customers] " + "\n";
+                updateUser = updateUser + "   SET [CustomerID] = @CustomerID " + "\n";
+                updateUser = updateUser + "      ,[CompanyName] = @CompanyName " + "\n";
+                updateUser = updateUser + "      ,[ContactName] = @ContactName " + "\n";
+                updateUser = updateUser + "      ,[ContactTitle] = @ContactTitle " + "\n";
+                updateUser = updateUser + "      ,[Address] = @Address " + "\n";
+                updateUser = updateUser + " WHERE CustomerID = @CustomerID";
+                using (var commando = new SqlCommand(updateUser, conexion))
+                {
+                    SqlCommand comando = parametrosSqlCustomers(commando, cliente);
+                    SqlDataAdapter adapter = new SqlDataAdapter();
+                    adapter.UpdateCommand = comando;
+                    return adapter.UpdateCommand.ExecuteNonQuery();
+                }
+            }
+        }
+
+        private SqlCommand parametrosSqlCustomers(SqlCommand comando, Customer cliente)
+        {
+            comando.Parameters.AddWithValue("CustomerID", cliente.CustomerID);
+            comando.Parameters.AddWithValue("CompanyName", cliente.CompanyName);
+            comando.Parameters.AddWithValue("ContactName", cliente.ContactName);
+            comando.Parameters.AddWithValue("ContactTitle", cliente.ContactTitle);
+            comando.Parameters.AddWithValue("Address", cliente.Address);
+            return comando;
+
         }
     }
 }
