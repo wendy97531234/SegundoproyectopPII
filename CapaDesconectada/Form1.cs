@@ -60,7 +60,7 @@ namespace CapaDesconectada
             return cliente;
 
         }
-        private void btnActualizarNT_Click(object sender, EventArgs e)
+        private void btnActualizarNt_Click(object sender, EventArgs e)
         {
             var cliente = CrearCliente();
             var actulaixadas = customerRepository.ActualizarCliente(cliente);
@@ -109,6 +109,38 @@ namespace CapaDesconectada
                 );
         }
 
-       
+        private void btnActualizart_Click(object sender, EventArgs e)
+        {
+            var fila = adaptador.GetDataByCustomerID(tboxCustomerID.Text);
+            if (fila != null)
+            {
+                var datoOriginal = customerRepository.ExtraerInfoCliente(fila);
+                var datosModificados = CrearCliente();
+                var filas = adaptador.Update(
+                    datosModificados.CustomerID,
+                    datosModificados.CompanyName,
+                    datosModificados.ContactName,
+                    datosModificados.ContactTitle,
+                    datosModificados.Address,
+                    datosModificados.City,
+                    datosModificados.Region,
+                    datosModificados.PostalCode,
+                    datosModificados.Country,
+                    datosModificados.Phone,
+                    datosModificados.Fax,
+                    datoOriginal.CustomerID,
+                    datoOriginal.CompanyName,
+                    datoOriginal.ContactName,
+                    datoOriginal.ContactTitle,
+                    datoOriginal.Address,
+                    datoOriginal.City,
+                    datoOriginal.Region,
+                    datoOriginal.PostalCode,
+                    datoOriginal.Country,
+                    datoOriginal.Phone,
+                    datoOriginal.Fax
+                    );
+            }
         }
     }
+}
