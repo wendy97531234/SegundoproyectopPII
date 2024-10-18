@@ -54,6 +54,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.btonInsertarCliente = new System.Windows.Forms.Button();
             this.btnEliminarClienteNT = new System.Windows.Forms.Button();
+            this.btnEliminarClienteT = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNotipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -133,6 +134,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnEliminarClienteT);
             this.groupBox2.Controls.Add(this.btnActualizart);
             this.groupBox2.Controls.Add(this.btnBuscarTipado);
             this.groupBox2.Controls.Add(this.tboxBuscarTipado);
@@ -301,6 +303,16 @@
             this.btnEliminarClienteNT.UseVisualStyleBackColor = true;
             this.btnEliminarClienteNT.Click += new System.EventHandler(this.btnEliminarClienteNT_Click);
             // 
+            // btnEliminarClienteT
+            // 
+            this.btnEliminarClienteT.Location = new System.Drawing.Point(71, 366);
+            this.btnEliminarClienteT.Name = "btnEliminarClienteT";
+            this.btnEliminarClienteT.Size = new System.Drawing.Size(90, 28);
+            this.btnEliminarClienteT.TabIndex = 7;
+            this.btnEliminarClienteT.Text = "Eliminar";
+            this.btnEliminarClienteT.UseVisualStyleBackColor = true;
+            this.btnEliminarClienteT.Click += new System.EventHandler(this.btnEliminarClienteT_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,6 +372,7 @@
         private System.Windows.Forms.Button btnActualizarNt;
         private System.Windows.Forms.Button btnActualizart;
         private System.Windows.Forms.Button btnEliminarClienteNT;
+        private System.Windows.Forms.Button btnEliminarClienteT;
     }
 }
 

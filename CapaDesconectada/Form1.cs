@@ -160,6 +160,13 @@ namespace CapaDesconectada
             }
         }
 
-       
+        private void btnEliminarClienteT_Click(object sender, EventArgs e)
+        {
+            int filasEliminadas = adaptador.EliminarCliente(tboxCustomerID.Text);
+            MessageBox.Show($"{ filasEliminadas}filasEliminadas");
+   
+
+        }
     }
 }
+//finish
